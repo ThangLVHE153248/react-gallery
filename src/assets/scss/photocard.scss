@@ -1,0 +1,11 @@
+.card {
+  &:hover {
+    & .card_favorite,
+    & .card_button {
+      display: block;
+    }
+  }
+  & .card_button {
+    transform: translateX(-50%);
+  }
+}
